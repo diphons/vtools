@@ -1,0 +1,537 @@
+<resources>
+    <string name="require_restart_app">Perlu memulai ulang aplikasi agar berlaku</string>
+
+    <integer name="opacity">0</integer>
+
+    <string name="format_hh_mm">%02d:%02d</string>
+    <string name="btn_cancel">Membatalkan</string>
+    <string name="btn_not_now">Kembali lagi nanti</string>
+    <string name="btn_delete">menghapus</string>
+    <string name="btn_dontshow">jangan perlihatkan lagi</string>
+    <string name="btn_confirm">Tentu</string>
+    <string name="btn_no">tidak</string>
+    <string name="btn_yes">Ya</string>
+    <string name="btn_continue">melanjutkan</string>
+    <string name="btn_modify_confirm">Konfirmasikan perubahan</string>
+    <string name="btn_help">Tolong</string>
+    <string name="btn_iknow">dipahami</string>
+    <string name="btn_exit">berhenti</string>
+    <string name="btn_hide">bersembunyi</string>
+    <string name="btn_resume">pulih</string>
+    <string name="btn_skip">Melompati</string>
+    <string name="btn_retry">Mencoba kembali</string>
+    <string name="btn_apply">aplikasi</string>
+    <string name="btn_reboot">Menyalakan ulang</string>
+    <string name="btn_resume_selected">Pulihkan yang dipilih</string>
+    <string name="make_choice">tolong konfirmasi</string>
+    <string name="download">unduh</string>
+    <string name="error_su_timeout">Menunggu batas waktu, pastikan Root Manager Anda berjalan di latar belakang dan coba lagi! \n\nHarap pastikan bahwa Anda tidak mencegah "Pengelola Otorisasi (SuperSu, Magisk Manager, dll.)" untuk memulai secara otomatis, dan mengizinkan jendela sembul latar belakang, menampilkan jendela mengambang, dan izin lainnya. Jika kotak dialog otorisasi tidak muncul, disarankan untuk me-restart telepon dan coba lagi! \n</string>
+
+    <string name="error_root">Maaf, tidak ada izin ROOT yang diperoleh</string>
+    <string name="error_root_desc">Tanpa izin ROOT, banyak fungsi khusus akan hilang. \nJika Anda melewatkan perintah otorisasi, atau tidak melihat jendela pop-up, temukan pengelola ROOT Anda dan atur secara manual untuk mengizinkan Scene menggunakan izin ROOT~</string>
+    <string name="question_install_busybox">Instal Busybox?</string>
+    <string name="question_install_busybox_desc">Tampaknya busybox tidak diinstal pada ponsel Anda, yang akan membuat Scene tidak dapat digunakan. Apakah Anda ingin menginstalnya sekarang (memerlukan modifikasi sistem)?</string>
+
+    <string name="share_link">Anda juga dapat mencoba Scene, saya pikir itu tidak buruk, tautan unduhan:\n http://vtools.omarea.com/</string>
+    <!--<string name="feedback_link">mqqwpa://im/chat?chat_type=wpa&amp;uin=1191634433--></string>-->
+
+    <string name="app_name">Adegan 5 Alfa</string>
+    <string name="app_name_short">Adegan5</string>
+    <string name="app_name_mode_switch">Mode peralihan cepat pemandangan</string>
+
+    <string name="backup_action_title_boot">Ekspor Boot</string>
+    <string name="backup_action_desc_boot">Cadangkan Boot yang saat ini digunakan sebagai img, salin ke /sdcard/boot.img</string>
+    <string name="restore_action_title_boot">Flash ke Boot</string>
+    <string name="restore_action_desc_boot">Pilih untuk mem-flash boot.img</string>
+
+    <string name="backup_action_title_rec">Pemulihan Ekspor</string>
+    <string name="backup_action_desc_rec">Cadangkan Pemulihan ekspor yang saat ini digunakan sebagai img, salin ke /sdcard/recovery.img</string>
+    <string name="restore_action_title_rec">Flash ke Pemulihan</string>
+    <string name="restore_action_desc_rec">Pilih untuk mem-flash recovery.img</string>
+
+    <string name="backup_action_title_dtbo">Ekspor partisi DTBO</string>
+    <string name="backup_action_desc_dtbo">Ekspor partisi DTBO sebagai gambar img dan salin ke /sdcard/dtbo.img</string>
+    <string name="restore_action_title_dtbo">Flash ke cermin DTBO</string>
+    <string name="restore_action_desc_dtbo">Pilih untuk mem-flash ke dtbo.img</string>
+
+    <string name="backup_action_title_persist">Ekspor partisi Persisten</string>
+    <string name="backup_action_desc_persist">Ekspor partisi Persist sebagai gambar img dan salin ke /sdcard/persist.img</string>
+    <string name="restore_action_title_persist">Flash ke gambar Persisten</string>
+    <string name="restore_action_desc_persist">Pilih untuk mem-flash ke persistent.img</string>
+
+    <string name="backup_file_exists">Timpa file?</string>
+    <string name="backup_img_exists">/sdcard/%s.img sudah ada, apakah Anda ingin menimpa file yang ada? \n</string>
+    <string name="backup_space_small">Ruang penyimpanan tidak mencukupi, harap pesan setidaknya 200 juta ruang kosong!</string>
+
+    <string name="autobooster_tab_details">Pengaturan daftar hitam</string>
+    <string name="autobooster_tab_system_scene">Adegan sistem</string>
+    <string name="auto_clear_ignore_chager">Abaikan status pengisian daya</string>
+    <string name="auto_clear_ignore_chager_desc">Dalam status pengisian daya, tindakan istirahat layar ditunda hingga pengisian daya selesai.</string>
+
+    <string name="settings_disable_selinux">Mode toleransi SeLinux</string>
+    <string name="settings_disable_selinux_desc">Alihkan SELinux ke mode permisif (beberapa perangkat lunak disebut [Tutup Selinux]), status SeLinux tidak berpengaruh pada Scene, dan mengaktifkan mode permisif mungkin macet dan dimulai ulang!</string>
+    <string name="settings_theme">Warna tema</string>
+    <string name="settings_debug_layer">Jendela debug</string>
+    <string name="settings_debug_layer_desc">Menampilkan log penilaian Scene dari proses aplikasi latar depan</string>
+    <string name="settings_help_icon">ikon pengingat</string>
+    <string name="settings_help_icon_desc">Tampilkan ikon prompt deskripsi fungsi (tanda tanya) di sebelah item fungsi</string>
+    <string name="settings_auto_exit">Keluar secara otomatis saat tidak normal</string>
+    <string name="settings_auto_exit_desc">Secara otomatis mengakhiri proses ketika ada kelainan dalam proses yang berjalan untuk menghindari layar putih macet</string>
+    <string name="settings_logcat_title">Catatan eror</string>
+    <string name="settings_logcat_desc">Ketika Adegan mengalami kesalahan dan crash kembali, klik tombol di bawah untuk mengambil log melalui logcat dan mengirimkannya ke pengembang untuk memecahkan masalah</string>
+    <string name="settings_black_notification">Latar belakang pemberitahuan hitam</string>
+    <string name="settings_black_notification_desc">Saat sistem dalam mode malam, pemberitahuan Adegan permanen akan ditampilkan sebagai latar belakang hitam (Tidak perlu mengaktifkan opsi ini dalam keadaan normal)</string>
+
+    <string name="menu_home">Ringkasan</string>
+    <string name="menu_paypal">Donasi hadiah</string>
+    <string name="menu_scene_mode">Modus pemandangan</string>
+    <string name="menu_app_scene">Skenario aplikasi</string>
+    <string name="menu_system_scene">Adegan sistem</string>
+    <string name="menu_auto_click">Klik otomatis</string>
+    <string name="menu_cpu_modes">Konfigurasi kinerja</string>
+    <string name="menu_freeze">Bias aplikasi</string>
+    <string name="menu_battery_stats">Statistik konsumsi daya</string>
+    <string name="menu_battery_stats_desc">Lihat data konsumsi daya (saat ini) yang direkam selama penggunaan aplikasi</string>
+    <string name="menu_core_control">kontrol CPU</string>
+    <string name="menu_sundry">Pengaturan lain-lain</string>
+    <string name="menu_additional">Fitur tambahan</string>
+    <string name="menu_applictions">Manajemen aplikasi</string>
+    <string name="menu_swap">pengaturan SWAP</string>
+    <string name="menu_battery">Kontrol pengisian daya</string>
+    <string name="menu_charge">Statistik pengisian daya</string>
+    <string name="menu_power_utilization">Statistik konsumsi daya</string>
+    <string name="menu_custom_command">Perintah khusus</string>
+    <string name="menu_processes">Manajemen proses</string>
+    <string name="menu_modules">modul sihir</string>
+    <string name="menu_fps_chart">Perekaman kecepatan bingkai</string>
+    <string name="menu_app_magisk">Modul tambahan</string>
+    <string name="menu_gesture">Navigasi gerakan</string>
+    <string name="menu_xposed_app">Pengaturan aplikasi</string>
+    <string name="menu_xposed_global">Pengaturan global</string>
+    <string name="menu_filter">Filter layar</string>
+    <string name="menu_img">Cadangkan dan pulihkan</string>
+    <string name="menu_qq">Membual berlagak</string>
+    <string name="menu_menu_title">Pertukaran umpan balik</string>
+    <string name="menu_share">Bagikan aplikasi</string>
+    <string name="menu_miui_thermal">Kontrol suhu MIUI</string>
+
+    <string name="system">sistem</string>
+
+    <string name="accessibility_running">Layanan tambahan diaktifkan</string>
+    <string name="accessibility_stoped">Klik di sini untuk mengaktifkan layanan tambahan</string>
+    <string name="accessibility_service_description">Layanan peningkatan pemandangan\nAnda harus mengaktifkan layanan ini untuk menggunakan fungsi berikut:\n\n1. Respons dinamis (secara otomatis menyesuaikan kinerja sesuai dengan aplikasi latar depan).\n\n2. Perilaku otomatis (saat berpindah jaringan saat berpindah layar atau berpindah aplikasi Proses daur ulang).\n\n3. Instalasi otomatis (otomatis klik berikutnya saat menginstal aplikasi pihak ketiga)</string>
+    <string name="accessibility_please_activate">Silakan aktifkan opsi [Layanan Pembantu Pemandangan] di pengaturan sistem</string>
+    <string name="accessibility_activate">Layanan tambahan tidak diaktifkan, klik di sini untuk mengaktifkan</string>
+    <string name="accessibility_activate_desc">Anda perlu mengaktifkan layanan ini untuk menyesuaikan kinerja berdasarkan aplikasi, secara otomatis beralih GPS, dan merekam kecepatan konsumsi daya.</string>
+
+    <string name="battery_title">Baterai:</string>
+    <string name="battery_title_desc1">Jika Anda perlu menggunakan fungsi "pengaturan kecepatan pengisian daya" dan "perlindungan pengisian daya", pastikan agar Scene tetap berjalan di latar belakang!</string>
+    <string name="battery_reality_limit">Batas aktual saat ini:</string>
+    <string name="battery_pd_allowed">Pengisian cepat USB-PD</string>
+    <string name="battery_pd_allowed_desc">Ponsel akan menentukan apakah akan mengaktifkan pengisian USB-PD berdasarkan status kompatibilitas, tanpa pengaturan manual. Pergantian manual akan menyebabkan kecepatan pengisian menjadi lambat, jadi modifikasi manual tidak diperbolehkan!</string>
+    <string name="battery_pd_active_state">Status terkini:</string>
+    <string name="battery_pd_active_1">Telah memasuki mode pengisian cepat PD</string>
+    <string name="battery_pd_active_0">Tidak masuk ke mode pengisian cepat PD</string>
+    <string name="battery_auto_boot_desc">OK, jika Anda ingin fungsi ini diaktifkan secara otomatis setelah telepon dihidupkan ulang, izinkan Scene untuk memulai secara otomatis setelah booting!</string>
+    <string name="battery_qc_rehoot_desc">Layanan akselerasi pengisian daya telah dinonaktifkan. Anda mungkin perlu me-restart telepon Anda untuk mengembalikan pengaturan default!</string>
+    <string name="battery_pd_active_unknown">tidak dikenal</string>
+    <string name="battery_uevent_title">$bms/uevent</string>
+    <string name="battery_usb_uevent_title">$usb/uevent</string>
+    <string name="battery_night_mode_time">%02d:%02d</string>
+    <string name="battery_night_mode">Kecepatan pengisian dinamis</string>
+    <string name="battery_night_mode_desc">Sesuaikan untuk memperlambat pengisian daya saat hampir penuh\n\ndan secara aktif mengurangi kecepatan pengisian daya di malam hari</string>
+    <string name="battery_time_get_up">Waktu bangun tidur</string>
+    <string name="battery_time_sleep">Waktu tidur</string>
+    <string name="battery_manual_control">Kontrol manual</string>
+    <string name="battery_charge_disable">Tidak ada pengisian daya</string>
+    <string name="battery_charge_resume">Lanjutkan pengisian daya</string>
+    <string name="battery_usage_history">Catatan penggunaan baterai</string>
+    <string name="battery_view_history">Lihat catatan</string>
+    <string name="battery_delete_history">Hapus Rekaman</string>
+    <string name="battery_bp">Perlindungan pengisian daya</string>
+    <string name="battery_bp_desc">Berhenti mengisi daya setelah mencapai tingkat daya yang ditentukan\n\nCatatan: Penggunaan jangka panjang dapat menyebabkan tampilan daya menjadi tidak akurat</string>
+    <string name="battery_bp_level_desc">Nilai batas daya (%)</string>
+    <string name="battery_qc_charger">Kecepatan pengisian</string>
+    <string name="battery_bp_status">Hentikan pengisian daya saat mencapai %d%%, dan pulihkan di bawah %d%%</string>
+    <string name="battery_qc_charger_desc">Sesuaikan batas kecepatan pengisian. Peningkatan gila tidak ada artinya, karena tidak akan mencapai efek yang sebenarnya, harap sesuaikan nilainya dalam rentang efektif\n\nCatatan: Nilai batas atas hanya untuk referensi, silakan lihat kecepatan pengisian yang sebenarnya!</string>
+    <string name="battery_charge_disabled">Fungsi pengisian daya dinonaktifkan!</string>
+    <string name="battery_charge_resumed">Fungsi pengisian daya telah dipulihkan!</string>
+    <string name="battery_forgery">kamuflase data</string>
+    <string name="battery_forgery_ratio">daya baterai</string>
+    <string name="battery_forgery_full_now">Kapasitas penuh</string>
+    <string name="battery_step_charge">Pengisian bertahap</string>
+    <string name="battery_step_charge_desc">Sistem menyesuaikan batas atas kecepatan pengisian daya secara bertahap sesuai dengan tingkat daya untuk membantu melindungi masa pakai baterai\n\nSecara umum disarankan untuk mempertahankan pengaturan default</string>
+    <string name="battery_exec_option">Tujuan kecepatan pengisian:</string>
+    <string-array name="battery_exec_options">
+        <item>mengurangi kecepatan</item>
+        <item>Mempercepat pengisian daya</item>
+        <item>Tagihan sampai mati</item>
+    </string-array>    
+    <string name="battery_exec_desc">Scene akan melakukan perubahan kecepatan pada waktu yang berbeda sesuai dengan pilihan Anda. Perbedaan spesifiknya adalah sebagai berikut.\n\nKurangi kecepatan: setel ulang kecepatan pengisian daya hanya saat pengisi daya tersambung dan persentase baterai berubah.\nPercepat pengisian daya: status baterai berubah, dan pengisi daya tersambung Setel ulang kecepatan pengisian daya pada saat \nMengisi daya hingga mati: Berdasarkan logika [Percepatan Pengisian Daya], kecepatan pengisian daya secara otomatis disetel ulang setiap detik</string>
+
+    <string name="battery_voltage">Tegangan saat ini:</string>
+    <string name="battery_electricity">Arus saat ini:</string>
+    <string name="battery_temperature">Suhu saat ini:</string>
+    <string name="battery_status_discharging">Tidak mengisi daya</string>
+    <string name="battery_status_charging">pengisian</string>
+    <string name="battery_status_full">diisi</string>
+    <string name="battery_status_not_charging">Tidak mengisi daya</string>
+    <string name="battery_status_unknown">status tidak diketahui</string>
+    <string name="battery_status_sum">\nSekitar mengisi daya %smAh</string>
+    <string name="electricity_unit_adj">Kalibrasi unit saat ini</string>
+    <string name="electricity_unit_adj_desc">Kecepatan pengisian saat ini, dibagi dengan:</string>
+    <string name="electricity_unit_as">ditampilkan sebagai:</string>
+    <string name="electricity_unit_adj_desc2">Pengisian harus ditampilkan sebagai angka positif, dan pemakaian harus ditampilkan sebagai angka negatif</string>
+
+   <!--Scheduling configuration source selection-->
+    <string name="schedule_source">Pilih sumber konfigurasi</string>
+    <string name="schedule_classics">Konfigurasi klasik</string>
+    <string name="schedule_classics_desc">Preset yang disediakan oleh Scene, setiap mode berbeda</string>
+    <string name="schedule_positive">Berorientasi pada kinerja</string>
+    <string name="schedule_positive_desc">Preset yang disediakan oleh Scene lebih memperhatikan rilis kinerja secara keseluruhan</string>
+    <string name="schedule_scene_desc">Beralih mode secara otomatis sesuai dengan perubahan di aplikasi latar depan</string>
+    <string name="schedule_scene">Respon Dinamis</string>
+    <string name="schedule_excellent">Kinerja Luar Biasa</string>
+    <string name="schedule_excellent_desc">Hapus batas frekuensi permainan / kunci bingkai dan pengingat suhu tinggi, harap perhatikan untuk melindungi perangkat Anda!</string>
+
+    <string name="schedule_screen_on">Default global (status layar cerah)</string>
+    <string name="schedule_screen_on_desc">Aplikasi yang tidak mengatur mode penjadwalan secara terpisah akan menggunakan mode ini secara default. \n\nJika Anda perlu mengatur mode aplikasi satu per satu, silakan klik [Kebijakan Aplikasi] di bagian bawah antarmuka saat ini</string>
+    <string name="schedule_screen_off">Hidupkan siaga</string>
+    <string name="schedule_screen_off_desc">Setelah telepon memasuki keadaan siaga, itu akan beralih ke mode yang dipilih</string>
+    <string name="schedule_delay_desc">Setelah aplikasi latar depan berubah, tunda 5 detik sebelum melakukan sakelar mode penjadwalan</string>
+    <string name="schedule_delay">Peralihan tertunda</string>
+    <string name="schedule_enhanced">Modus ketat</string>
+    <string name="schedule_enhanced_desc">Jika opsi ini tidak diaktifkan, Scene hanya akan menjalankan profil penjadwalan saat perlu mengganti persneling. Misalnya, saat beralih di antara beberapa aplikasi yang disetel ke [Mode Hemat Daya], profil penjadwalan hanya akan dijalankan satu kali. \n\nDalam mode ketat, Scene akan mengeksekusi file konfigurasi penjadwalan setiap kali aplikasi latar depan berubah, dan memberi tahu aplikasi (nama paket) yang dialihkan ke latar depan untuk dijalankan. Penulis konfigurasi penjadwalan dapat menggunakan fitur ini untuk merancang parameter penjadwalan secara individual untuk aplikasi yang berbeda, dan tidak lagi dibatasi oleh batasan hanya empat roda gigi. \n\nKetika model Snapdragon 855, 865, 888 menggunakan sumber konfigurasi [Konfigurasi Klasik] [Fokus Kinerja], Anda dapat mengaktifkan mode ketat untuk mengalami pengoptimalan eksklusif dalam aplikasi berikut:\nYuanshen (server resmi, server B, Server Xiaomi)\nXianyu, Taobao, Jingdong, Tmall, Baidu Post Bar\nTwin Vision\nBilibili, Douyin\n\nModel prosesor lainnya, kecuali Anda menggunakan sumber konfigurasi eksternal (dan pembuat konfigurasi Telah ditunjukkan bahwa fitur ini didukung), jika tidak, tidak perlu mengaktifkan opsi ini!</string>
+    <string name="schedule_app">Strategi aplikasi</string>
+    <string name="schedule_app_desc">Kebijakan penjadwalan terpisah untuk setiap aplikasi</string>
+    <string name="schedule_unfinished">Anda tidak dapat mengaktifkan fungsi ini sebelum menginstal konfigurasi penjadwalan yang valid~</string>
+    <string name="schedule_remove_outside">Anda telah menginstal konfigurasi penjadwalan yang disediakan oleh penulis lain (terletak di /data/powercfg.sh), dan Anda harus menghapusnya terlebih dahulu untuk mengubah sumber konfigurasi. Apakah Anda ingin menghapusnya sekarang? \n\n* Disarankan untuk me-restart telepon sekali setelah menghapus</string>
+    <string name="schedule_unofficial">Anda menggunakan konfigurasi penjadwalan yang disediakan oleh penulis lain~</string>
+    <string name="schedule_unsupported">Konfigurasi penjadwalan Scene sendiri belum disesuaikan dengan SOC saat ini~</string>
+    <string name="schedule_dynamic_off">Anda belum mengaktifkan [Respon Dinamis], Adegan tidak dapat menyesuaikan kinerja perangkat sesuai dengan perubahan di aplikasi latar depan!</string>
+    <string name="schedule_uperf_fast">Penjadwalan atas hanya menyediakan tiga mode [stuck/balanced/charged electrical], yang sesuai dengan [power saving/balanced/performance] Scene. \nSaat Anda memilih mode [Extreme Speed] di Scene, efek sebenarnya adalah [Charge], yang sama dengan memilih mode [Performance]</string>
+
+    <string name="dialog_addin_device_warn">Harap jangan memasukkan simbol khusus untuk informasi model! \nIni kompatibel dengan kode model modul [variabel aplikasi]. Setelah menyalin, buka kembali jendela ini dan Anda dapat menggunakannya!</string>
+    <string name="dialog_addin_device_desc">Setelah modifikasi, Anda dapat mengklik "Pulihkan" -> "Konfirmasi" untuk mengembalikan model sebelum dimodifikasi. Menghapus instalan Scene akan mengakibatkan hilangnya informasi model cadangan. Pastikan untuk memulihkan sebelum mencopot pemasangan! \n\nAtau, Anda juga dapat memulihkan informasi model dengan mem-flash ROM lengkap lagi! \n\nJangan gunakan fungsi ini untuk memodifikasi model saat menggunakan perangkat lunak multisistem DualBootPatcher! ! !</string>
+    <string name="dialog_addin_device_inner">Templat prasetel</string>
+    <string name="title_activity_shortcut">Mulai cepat</string>
+    <string name="title_activity_freeze">Bias aplikasi</string>
+    <string name="title_activity_online">Scene-Online</string>
+
+    <string name="shortcut_disabled">tidak tersedia untuk sementara</string>
+    <string name="shortcut_p1">Mode hemat daya</string>
+    <string name="shortcut_p1_long">Konfigurasi kinerja-penghematan daya</string>
+    <string name="shortcut_p2">Modus seimbang</string>
+    <string name="shortcut_p2_long">Keseimbangan konfigurasi kinerja</string>
+    <string name="shortcut_p3">Mode performa</string>
+    <string name="shortcut_p3_long">Konfigurasi kinerja-kinerja</string>
+    <string name="shortcut_p4">Modus kecepatan</string>
+    <string name="shortcut_p4_long">Kecepatan konfigurasi kinerja</string>
+    <string name="device_unsupport">Fungsi ini tidak mendukung perangkat Anda untuk sementara!</string>
+
+    <string name="addin_fullscreen_on">Pengalaman imersif</string>
+    <string name="addin_fullscreen_on_desc">Sembunyikan bilah status dan bilah navigasi secara otomatis</string>
+    <string name="addin_flyme_static_blur">Kurangi keburaman Flyme6</string>
+    <string name="addin_flyme_static_blur_desc">Nonaktifkan efek blur real-time dari pusat notifikasi pull-down Flyme6 untuk mengurangi lag di pusat notifikasi pull-down perangkat low-end Meizu selama permainan atau pemutaran video. Ini juga dapat menghemat daya dan perlu dimulai ulang.</string>
+    <string name="addin_miui_hide_search">MIUI9 pergi ke pusat notifikasi untuk mencari</string>
+    <string name="addin_miui_hide_search_desc">Sembunyikan kotak pencarian pusat notifikasi drop-down sistem MIUI9 secara default, dan itu akan berlaku setelah memulai ulang</string>
+    <string name="addin_dpi">DPI, modifikasi resolusi</string>
+    <string name="addin_dpi_desc">Menyesuaikan DPI atau resolusi ponsel dapat menyebabkan perangkat gagal memulai secara normal, atau kesalahan UI</string>
+    <string name="addin_deviceinfo">Modifikasi model</string>
+    <string name="addin_deviceinfo_desc">Dengan mengubah model kamuflase build.prop, beberapa ponsel mungkin gagal untuk boot atau memiliki bug</string>
+    <string name="addin_mac">Ubah alamat MAC (Skema 1)</string>
+    <string name="addin_mac_desc">Sesuaikan alamat MAC kartu jaringan WIFI ponsel, hanya mendukung beberapa perangkat</string>
+    <string name="addin_mac_2">Ubah alamat MAC (Skema 2)</string>
+    <string name="addin_mac_desc_2">Sesuaikan alamat MAC kartu jaringan WIFI ponsel, hanya mendukung beberapa perangkat, lebih cocok untuk Android Q</string>
+    <string name="addin_force_dex_compile">Paksa dex2oat untuk dikompilasi</string>
+    <string name="addin_force_dex_compile_desc">Kompilasi aplikasi dengan dex2oat untuk mengurangi penggunaan CPU dan RAM saat runtime. Proses kompilasi mungkin memakan waktu setengah jam, dan Anda perlu mengkompilasi ulang setelah sistem diperbarui!</string>
+    <string name="addin_dexopt_helpinfo">Setelah Android N, untuk mengurangi penggunaan ruang aplikasi dan meningkatkan efisiensi penginstalan, dex tidak lagi dikompilasi sepenuhnya saat aplikasi diinstal, yang mengakibatkan penurunan kecepatan berjalan. Memilih "kompilasi" melalui fungsi ini akan menggunakan mode kecepatan untuk mengkompilasi saat menginstal aplikasi, kecepatan instalasi secara signifikan lebih lambat, tetapi runtime lebih lancar (meningkat sekitar 20%, tidak ada peningkatan frame rate game!). \n\nAmbil contoh klien TV Douyu di bawah sistem Oreo. Base.odex hanya 6,8 MB ketika baru diinstal, dan meningkat menjadi 103 MB setelah kompilasi. \n\nNamun, banyak aplikasi domestik menggunakan teknologi hot update, dan mereka sering kali perlu mengunduh kode terbaru dari server dan menguraikan serta merender selama operasi. Ini adalah alasan utama untuk startup lambat dari aplikasi ini atau mengulur-ulur setelah startup. Oleh karena itu, kompilasi dex2oat tidak dapat memberikan peningkatan kinerja yang signifikan untuk aplikasi semacam itu!</string>
+    <string name="addin_dex2oat_helplink">https://source.android.com/devices/tech/dalvik/jit-compiler?hl=zh-cn</string>
+    <string name="addin_pm_dexopt">Terapkan dan instal strategi dex2oat</string>
+    <string name="addin_pm_dexopt_desc">Berlaku untuk Android N+, sesuaikan strategi kompilasi dex2oat saat aplikasi PackageManager diinstal, dan perlu diatur ulang setelah memperbarui sistem</string>
+    <string name="addin_wifi">Lihat WIFI yang disimpan</string>
+    <string name="addin_wifi_desc">Parsing wpa_supplicant.conf atau WifiConfigStore.xml di direktori /data/misc/wifi</string>
+    <string name="addin_bpc">Konfigurasi Peningkatan Kinerja disederhanakan</string>
+    <string name="addin_bpc_desc">Matikan beberapa opsi di Performance Boost Config untuk menghindari CPU yang sering ditarik dan menyebabkan konsumsi daya, tetapi tetap menjalankan aplikasi dan meningkatkan skala akan sedikit mengurangi pengalaman. Perlu dimulai ulang!</string>
+    <string name="addin_continue">melanjutkan</string>
+
+    <string name="swap_shell_01">Semua perangkat loopback telah digunakan dan tidak dapat dipasang!</string>
+    <string name="swap_on_close">SWAP sedang ditutup, ini mungkin lambat</string>
+    <string name="swap_current_state">Status terkini:</string>
+    <string name="swap_memory_info">Informasi Memori</string>
+    <string name="swap_vmstat">Statistik VM</string>
+    <string name="swap_io">TUKAR IO</string>
+    <string name="swap_swappiness_desc">Catatan:\nSemakin tinggi nilainya, semakin banyak SWAP aktif yang akan digunakan. Dampak dari pengaturan ini pada kelancaran sulit untuk dipahami, jadi sesuaikan seperlunya~</string>
+    <string name="swap_swappiness">swappiness</string>
+    <string name="swap_zram">ZRAM</string>
+    <string name="swap_zram_adjustment">menyesuaikan</string>
+    <string name="swap_zram_desc">Deskripsi: ZRAM adalah implementasi dari SWAP. Ketika memori yang tersedia menjadi tidak mencukupi, sebagian data dalam memori akan dikompresi. Tapi CPU akan menjadi sibuk~</string>
+    <string name="swap_zram_comp_options">Algoritma kompresi</string>
+    <string name="swap_zram_comp_algorithm_wran">Perubahan tidak berlaku</string>
+    <string name="swap_zram_comp_algorithm_wran_desc">ZRAM sedang digunakan, dan algoritma kompresi tidak dapat diubah sekarang. \n\nAgar pengaturan diterapkan, klik tombol "Sesuaikan" di bawah</string>
+    <string name="swap_swap">Tukar file</string>
+    <string name="swap_create">membuat</string>
+    <string name="swap_start">memulai</string>
+    <string name="swap_stop">penutup</string>
+    <string name="swap_delete">menghapus</string>
+    <string name="swap_zram_preferred">Gunakan ZRAM lagi</string>
+    <string name="swap_zram_equitable">Penggunaan simultan dengan ZRAM</string>
+    <string name="swap_swap_preferred">Sebelum menggunakan ZRAM</string>
+    <string name="swap_use_loop">Pasang sebagai perangkat loopback</string>
+    <string name="swap_use_loop_desc">Jika SWAP dapat digunakan secara normal tanpa mengaktifkan opsi ini, tidak perlu mengaktifkannya. \n\nKecuali SWAP tidak dapat dimulai, atau ponsel macet setelah memulai SWAP, Anda hanya perlu mengaktifkan opsi ini! \n\nMisalnya: Model SDM845 Xiaomi ada di Android 9.0, Anda perlu memeriksa opsi ini untuk menggunakan SWAP secara normal</string>
+    <string name="swap_swap_desc">Catatan: Swapfile mirip dengan memori virtual Windows, dan efisiensi pertukaran dibatasi oleh kinerja disk. Jangan gunakan fungsi ini pada ponsel dengan kapasitas kecil atau ruang yang tidak mencukupi untuk mencegah memori flash menua terlalu cepat!</string>
+    <string name="swap_auto_start">Mulai otomatis saat boot (untuk memungkinkan Adegan memulai secara otomatis)</string>
+    <string name="swap_auto_start_desc">Catatan: Anda harus mengizinkan Adegan untuk memulai secara otomatis, dan itu akan berlaku saat Anda memulainya lagi!</string>
+    <string name="swap_zram_stat">status ZRAM</string>
+    <string name="swap_outside_module">Modul tambahan (Magisk) eksternal</string>
+    <string name="swap_outside_module_desc">Anda telah menginstal kerangka Magisk. Disarankan untuk menggunakan modul tambahan versi terbaru untuk meningkatkan keandalan kontrol SWAP. Fungsi utama dari add-on adalah sebagai berikut:</string>
+    <string name="swap_outside_effect1">1. Tingkatkan kecepatan memulihkan pengaturan ZRAM dan Swapfile setelah telepon dihidupkan ulang</string>
+    <string name="swap_outside_effect2">2. Sesuaikan parameter LMK sesuai dengan kapasitas RAM perangkat untuk memperkuat kapasitas retensi latar belakang</string>
+    <string name="swap_outside_effect3">3. Sesuaikan parameter VM untuk meningkatkan antusiasme menggunakan ZRAM dan Swapfile</string>
+    <string name="swap_module_install_desc">Setelah mengunduh modul, silakan flash sendiri di Magisk Manager dan mulai ulang ponsel Anda!</string>
+    <string name="swap_zram_stat_desc">Rasio kompresi ZRAM biasanya antara 20~45%</string>
+    <string name="swap_zram_stat_format">Algoritme kompresi data: %s\nUkuran data asli: %s\nUkuran terkompresi: %s\nPenggunaan memori fisik: %s\nPenggunaan memori maksimum: %s\nBatas penggunaan memori: %s\nLaju kompresi: %s</string>
+    <string name="swap_zram_stat_format2">Algoritme kompresi data: %s\nukuran data asli: %s\nukuran terkompresi: %s\nlaju kompresi　　　: %s</string>
+    <string name="swap_zram_writback_stat">Penulisan Balik ZRAM\nBlok tulis balik: %s\nDitulis kembali: %dMB\nTotal dibaca: %dMB\nTotal penulisan balik: %dMB</string>
+    <string name="swap_zram_compact_algorithm">Algoritma kompresi</string>
+    <string name="swap_state_undefined">Tidak dibuat</string>
+    <string name="swap_state_created">tidak dimulai</string>
+    <string name="swap_state_using">Menggunakan</string>
+    <string name="extra_free_kbytes">ekstra_gratis_kbytes(KB)</string>
+    <string name="extra_free_kbytes_desc">Nilai ini menentukan berapa banyak memori fisik yang akan disimpan oleh kernel Linux. Ketika memori tidak mencukupi, itu akan segera mulai mengompresi memori ke SWAP/ZRAM. Perangkat jelas akan menjadi lebih lambat sebelum memori yang tersedia naik ke kisaran yang wajar.\n\nSederhananya, tambahkan pengaturan extra_free_kbytes Lebih besar, semakin agresif pemulihan memori (proses swap atau kill), tetapi tidak disarankan untuk mengatur terlalu besar, agar tidak membuang memori fisik dan menambah beban pada disk/prosesor!</string>
+    <string name="watermark_scale_factor">watermark_scale_factor</string>
+    <string name="watermark_scale_factor_desc">Rentang nilainya adalah 0~1000, di mana 1000 berarti 10%, yang berarti bahwa perbedaan antara ketiga nilai garis ketinggian air memori rendah/menit/tinggi (kapasitas RAM fisik) adalah 10%. \n\nMisalnya (ponsel saya):\npageSize=4KB\nmanaged=1951743(pages)\nmin_free_kbytes=10900(KB)\nwatermark_scale_factor=500\n\nNilai minimumnya adalah\n10900(KB)/4( PageSize)= 2725(halaman)\nnilai rendah kira-kira\n1951743*5%+2725≈100312(halaman)\nnilai tinggi kira-kira\n1951743*10%+2725≈197899(halaman)\nCatatan: nilai terendah akhir, tinggi Nilainya mungkin terlalu besar karena extra_free_kbytes.\n\nDalam contoh ini,\nmin=2725=10MB\nlow=100312≈392MB\nhigh=197899≈773MB\n\nberarti memori akan mulai didaur ulang jika RAM kurang dari 392M , hingga RAM yang tersedia lebih tinggi dari 773MB~</string>
+
+    <string name="on_execute_please_wait">Sedang melakukan operasi, harap tunggu...</string>
+    <string name="please_wait">Tunggu sebentar…</string>
+    <string name="please_notice">Tolong dicatat</string>
+    <string name="executed">Operasi selesai!</string>
+    <string name="file_creating">Membuat file</string>
+    <string name="zram_resizing">Menyesuaikan, harap tunggu dengan sabar...</string>
+    <string name="priority">prioritas</string>
+    <string name="order">memesan</string>
+    <string name="used">digunakan</string>
+    <string name="size">ukuran</string>
+    <string name="type">Tipe</string>
+    <string name="path">jalur</string>
+    <string name="battery_low">Baterai terlalu lemah, harap isi daya tepat waktu!</string>
+    <string name="sorry">Merasa kasihan</string>
+    <string name="powersave">Mode hemat daya</string>
+    <string name="balance">Modus seimbang</string>
+    <string name="performance">Mode performa</string>
+    <string name="fast">Modus kecepatan</string>
+    <string name="powersave_short">Penghematan energi</string>
+    <string name="balance_short">seimbang</string>
+    <string name="performance_short">pertunjukan</string>
+    <string name="fast_short">Kecepatan</string>
+    <string name="app_selected_none">Tidak ada aplikasi yang dipilih!</string>
+    <string name="help">Tolong</string>
+    <string name="warn">memperingatkan</string>
+    <string name="more">Belajarlah lagi</string>
+    <string name="kepp_state">Tertahan</string>
+    <string name="global_default">Default global</string>
+    <string name="unknown_mode">Modus tidak diketahui</string>
+    <string name="powersave_desc">Orang tua memanggil orang dalam</string>
+    <string name="balance_desc">Pelan-pelan, dunia memang enak dipandang</string>
+    <string name="performance_desc">Menekan permainan dengan bermain</string>
+    <string name="fast_desc">Kebahagiaan selalu singkat</string>
+    <string name="not_support_config">Tidak ditemukan skrip konfigurasi mode yang tersedia</string>
+    <string name="not_support_config_desc">Aplikasi tidak dilengkapi dengan skrip konfigurasi kinerja yang sesuai untuk ponsel Anda. Anda dapat memilih "Dapatkan skrip online" untuk melihat apakah ada konfigurasi yang cocok untuk ponsel Anda yang tersedia untuk diunduh, atau pilih "Pelajari lebih lanjut" untuk melihat tutorial konfigurasi khusus!</string>
+    <string name="first_start_select_config">Penggunaan pertama, pertama pilih preferensi konfigurasi</string>
+    <string name="config_online_options">Pilih perpustakaan skrip online</string>
+    <string name="online_config_v1">yc9559 disesuaikan v1</string>
+    <string name="online_config_v2">yc9559 disesuaikan v2</string>
+
+    <string name="config_installed">Instalasi konfigurasi berhasil!</string>
+    <string name="ro_product_model">ro.produk.model=</string>
+    <string name="ro_product_brand">ro.product.brand=</string>
+    <string name="ro_product_name">ro.product.name=</string>
+    <string name="ro_product_device">ro.product.device=</string>
+    <string name="ro_product_manufacturer">ro.product.manufacturer=</string>
+    <string name="auto_start">Memulai sendiri</string>
+    <string name="boot_after_auto_modify">Secara otomatis memodifikasi setelah boot</string>
+    <string name="core_control_helpinfo">Beberapa ponsel memiliki mekanisme penyesuaian dinamis untuk parameter CPU, yang akan menyebabkan parameter khusus menjadi tidak valid dengan cepat. Selain itu, kontrol suhu juga akan membatasi Anda untuk meningkatkan frekuensi CPU.</string>
+    <string name="shell_executor">Eksekusi skrip</string>
+    <string-array name="default_powercfg_mode_options">
+        <item>Mode hemat daya</item>
+        <item>Modus seimbang</item>
+        <item>Mode performa</item>
+        <item>Modus kecepatan</item>
+    </string-array>    
+    <string-array name="sleep_powercfg_mode_options">
+        <item>Mode hemat daya</item>
+        <item>Modus seimbang</item>
+        <item>Mode performa</item>
+        <item>Tertahan</item>
+    </string-array>    
+    <string-array name="powercfg_modes_filter">
+        <item>semua</item>
+        <item>Penghematan energi</item>
+        <item>seimbang</item>
+        <item>pertunjukan</item>
+        <item>Kecepatan</item>
+        <item>Default global</item>
+        <item>Tertahan</item>
+    </string-array>    
+    <string-array name="powercfg_apptype_filter">
+        <item>pengguna</item>
+        <item>sistem</item>
+        <item>semua</item>
+    </string-array>    
+
+    <string name="cgroup_mem_title">grup c</string>
+    <string-array name="cgroup_mem_options">
+        <item>standar sistem</item>
+        <item>Aplikasi biasa</item>
+        <item>Memori prioritas</item>
+        <item>Proses penting</item>
+        <item>Latar belakang terbatas</item>
+        <item>Dapatkan kembali memori</item>
+    </string-array>    
+
+    <string name="title_activity_timing_task">tugas waktunya</string>
+    <string name="title_activity_trigger">pemicu</string>
+    <string name="title_activity_file_selector">Silakan pilih file</string>
+    <string name="title_activity_folder_selector">Silakan tekan lama untuk memilih direktori</string>
+    <string name="config_save_fail">Gagal menyimpan konfigurasi!</string>
+    <string name="boot_success">Memulai sendiri telah selesai</string>
+    <string name="notice_channel_boot">Prompt startup sendiri</string>
+    <string name="notice_channel_task">Tugas terjadwal adegan</string>
+    <string name="notice_task_completed">Misi perencanaan adegan selesai</string>
+    <string name="boot_script_running">Menjalankan skrip mulai otomatis...</string>
+    <string name="boot_cpuset">Setel parameter kontrol CPU...</string>
+    <string name="boot_modify_mac">Ubah alamat MAC...</string>
+    <string name="boot_charge_booster">Aktifkan akselerasi pengisian daya...</string>
+    <string name="boot_use_powercfg">Konfigurasi penjadwalan aplikasi...</string>
+    <string name="boot_resize_zram">Setel kapasitas ZRAM...</string>
+    <string name="boot_swapon">Mulai SWAP...</string>
+    <string name="boot_lmk">Sesuaikan parameter LMK...</string>
+    <string name="boot_freeze">Aplikasi bias beku...</string>
+
+    <string name="flash_confirm">Konfirmasi untuk menggesek?</string>
+
+    <string name="scene_addin_miss">Pengaturan lanjutan tidak ada komponen</string>
+    <string name="scene_addin_miss_desc">Silakan unduh dan instal "Pengaturan Lanjutan Scene" dari situs web resmi Scene, dan atur untuk memungkinkan pengaktifan otomatis latar belakang!</string>
+    <string name="scene_addin_sync_fail">Gagal menyinkronkan pengaturan Xposed dari komponen "Pengaturan Lanjutan Scene"!</string>
+    <string name="scene_install_autoclick">Instal klik</string>
+    <string name="scene_install_autoclick_desc">Saat memasang aplikasi pihak ketiga, secara otomatis klik "Berikutnya" dan "Instal" untuk Anda</string>
+    <string name="scene_install_skip_ad">Lewati iklan</string>
+    <string name="scene_install_skip_ad_desc">Klik tombol "Lewati" secara otomatis, yang dapat membantu Anda melewati beberapa iklan layar terbuka secara otomatis, tetapi ini akan mengurangi kinerja sistem dan menyebabkan kesalahan.\n* Gunakan hanya dalam bahasa Cina sederhana untuk mendapatkan hasil yang lebih baik</string>
+    <string name="scene_install_skip_ad_precise">Lewati iklan+</string>
+    <string name="scene_install_skip_ad_precise_desc">Gunakan beberapa data tombol yang direkam di cloud untuk mengklik tombol lewati khusus</string>
+    <string name="scene_install_skip_ad_warn">Lalu lintas iklan merupakan sumber pendapatan penting bagi beberapa pengembang/bisnis perangkat lunak. Jika waktu Anda tidak terlalu mendesak, maka Anda disarankan untuk menelusuri dan mengklik konten iklan yang Anda sukai ^_^</string>
+    <string name="perf_opt">Respon Dinamis</string>
+    <string name="permission_modify_fail">Gagal mengubah izin!</string>
+    <string name="scene_need_write_sys_settings">Mohon izinkan Scene untuk "memodifikasi pengaturan sistem" terlebih dahulu!</string>
+    <string name="start_app_fail">Gagal memulai aplikasi!</string>
+    <string name="scene_need_notic_listing">Harap otorisasi dan izinkan Scene "izin pemberitahuan" terlebih dahulu!</string>
+
+    <string name="scene_create_shortcut_action">com.omarea.vtools.CreateShortcut</string>
+    <string name="scene_speed_compile">com.omarea.vtools.SpeedCompile</string>
+    <string name="scene_speed_profile_compile">com.omarea.vtools.SpeedProfileCompile</string>
+    <string name="scene_everything_compile">com.omarea.vtools.EverythingCompile</string>
+    <string name="scene_reset_compile">com.omarea.vtools.ResetCompile</string>
+
+    <string name="scene_contract_title">Pernyataan risiko</string>
+    <string name="scene_contract">Scene adalah aplikasi untuk penggemar mesin. Untuk menggunakannya, Anda harus memiliki penglihatan yang sangat baik, pemahaman membaca dan sikap yang baik. \n\nKesalahan yang tidak terduga dapat terjadi selama penggunaan, yang mengakibatkan hilangnya data dan bahkan kegagalan untuk melakukan booting secara normal. \nPastikan untuk tidak menggunakannya di ponsel Anda [untuk bekerja] atau [data penting], agar tidak menyebabkan kerugian! \n\nMenurut umpan balik pengguna sebelumnya, menggunakan perangkat lunak ini pada model produsen berikut dapat kehilangan data atau bahkan gagal boot:\nMeizu, LG, Google Pixel\n\nSelama penggunaan, harap baca petunjuknya dengan cermat dan operasikan dengan hati-hati , Jangan mudah beralih opsi fungsi yang tidak Anda pahami! \n\nSelain itu, pembuat aplikasi ini tidak menjamin bahwa bantuan dan saran pemecahan masalah akan diberikan!</string>
+    <string name="permission_float">Harap otorisasi tampilan izin jendela mengambang untuk Scene terlebih dahulu!</string>
+    <string name="lmk_optimize_desc">Biarkan Scene secara otomatis menyesuaikan parameter LMK sesuai dengan kapasitas RAM Anda, sehingga meningkatkan kemampuan latar belakang (dapat menyebabkan stuttering saat memori rendah). Jika Anda perlu memulihkan, matikan opsi ini dan mulai ulang ponsel Anda. Jika Anda perlu mengaturnya secara otomatis setelah boot, izinkan kotak alat untuk memulai</string>
+    <string name="lmk_optimize">Optimalisasi memori rendah</string>
+    <string name="low_memory_killer">Pembunuh Memori Rendah</string>
+    <string name="busybox_nonsupport">Adegan Busybox terintegrasi tidak mendukung sistem Anda saat ini, silakan unduh dan instal sendiri Busybox</string>
+    <string name="not_root_disabled">Anda tidak dapat menggunakan fungsi ini tanpa mendapatkan izin ROOT</string>
+    <string name="dex2oat_completed">kompilasi dex2oat selesai</string>
+    <string name="dex2oat_compiling">dex2oat sedang dikompilasi</string>
+    <string name="dex2oat_reset_running">pengaturan ulang dex2oat</string>
+
+    <string name="freeze_shortcut_lost">Jalan pintas hilang</string>
+    <string name="freeze_shortcut_lost_desc">Untuk aplikasi berikut yang telah ditambahkan ke mode bias, pintasan startup telah hilang atau tidak berhasil dibuat. Apakah Anda ingin segera membuatnya kembali?</string>
+    <string name="freeze_disable_completed">Aplikasi beku ×</string>
+    <string name="freeze_enable_completed">Aplikasi yang dicairkan  √</string>
+    <string name="freeze_shortcut_add_success">Dibuat</string>
+    <string name="freeze_shortcut_add_fail">Pembuatan gagal</string>
+    <string name="freeze_batch_add">Tambahkan pintasan secara massal</string>
+    <string name="freeze_batch_add_wran">Menambahkan pintasan dalam batch mungkin gagal, Anda dapat menekan lama ikon aplikasi untuk mengirim satu pintasan ke desktop!</string>
+    <string name="freeze_entrance_changed">Status tampilan ikon telah dialihkan</string>
+    <string name="freeze_shortcut_delete_desc">Anda mungkin perlu menghapus pintasan yang ditambahkan secara manual!</string>
+    <string name="wallpaper_rw_permission">Perlu izin "baca dan tulis penyimpanan lokal" untuk menggunakan wallpaper sistem sebagai latar belakang perangkat lunak</string>
+
+    <string name="shortcut_create_fail">Pembuatan pintasan gagal</string>
+    <string name="shortcut_create_success">Permintaan untuk membuat pintasan telah dikirim</string>
+    <string name="shortcut_create">Tambahkan pintasan</string>
+    <string name="shortcut_create_desc">Apakah Anda ingin menambahkan "%s" ke desktop untuk penggunaan yang cepat dan mudah?</string>
+    <string name="ushortcut_nsupported">Fungsi ini tidak mendukung penambahan pintasan</string>
+    <string name="btn_copy_output">Salin keluaran</string>
+    <string name="copy_success">Salin berhasil</string>
+    <string name="copy_fail">Salin gagal</string>
+    <string name="promote_link">https://tinyurl.com/y3j7vszf</string>
+
+    <string name="kr_write_external_storage">Perlu membaca dan menulis izin penyimpanan eksternal</string>
+    <string name="kr_page_before_load">Bersiaplah untuk mengurai konfigurasi</string>
+    <string name="kr_page_loading">Konfigurasi penguraian</string>
+    <string name="kr_page_after_load">Analisis konfigurasi selesai</string>
+    <string name="kr_page_sh_invalid">Output konfigurasi halaman tidak valid</string>
+    <string name="kr_page_sh_file_permission">File konfigurasi yang ditentukan tidak ada atau tidak memiliki izin baca</string>
+    <string name="kr_page_load_fail">Halaman gagal dimuat</string>
+    <string name="kr_page_load_success">Halaman berhasil dimuat</string>
+    <string name="kr_auto_run_item_losted">Item yang ditentukan tidak ada</string>
+
+    <string name="magisk_install_desc">Sebagian besar operasi modifikasi Scene ke sistem sekarang dapat dilakukan dalam bentuk modul Magisk. Namun, Anda harus terlebih dahulu setuju bahwa Scene akan secara otomatis menginstal modul tambahan di ponsel Anda dan memulai ulang ponsel (disarankan)!</string>
+    <string name="magisk_install_title">Modul tambahan pemandangan</string>
+    <string name="cache_recycle">Daur ulang cache</string>
+    <string name="dynamic_auto_disabled">Tidak ada file konfigurasi yang terdeteksi, respons dinamis telah dinonaktifkan secara otomatis!</string>
+    <string name="app_donate">Penghargaan</string>
+    <string name="app_nav">Fitur</string>
+    <string name="app_home">Ringkasan</string>
+    <string name="app_tuner">menyesuaikan</string>
+
+    <string name="home_cache_cleared">Tembolok dibersihkan</string>
+    <string name="home_core_switch">Ganti inti CPU</string>
+    <string name="home_core_required">Setidaknya satu inti harus dihidupkan</string>
+    <string name="home_utilization">memuat:</string>
+    <string name="home_browser_error">Gagal memulai browser!</string>
+    <string name="home_shell_begin">Mulai untuk mendapatkan kembali sejumlah kecil memori (tekan lama untuk mendapatkan kembali lebih banyak~)</string>
+    <string name="home_shell_01">Tidak yakin, kernel Anda tidak mendukungnya!</string>
+    <string name="home_shell_02">Idle SWAP tidak cukup untuk menyelesaikan daur ulang otomatis~</string>
+    <string name="home_shell_03">Jangan melakukan beberapa operasi reklamasi memori secara bersamaan~</string>
+    <string name="home_shell_04">Oke, pemulihan memori selesai~</string>
+    <string name="home_shell_05">Operasi gagal, dan ada kesalahan dalam menghitung kapasitas!</string>
+    <string name="home_shell_06">Memori cukup, tidak perlu dibersihkan!</string>
+    <string name="home_shell_07">Memori yang cukup telah dirilis melalui ZRAM write-back</string>
+
+    <string name="system_scene_next_task">tugas berikutnya</string>
+    <string name="system_scene_resume_charge">Lanjutkan pengisian daya</string>
+    <string name="system_scene_battery_left">Baterai lebih rendah dari</string>
+    <string name="system_scene_battery_right">Baterai lebih tinggi dari</string>
+    <string name="system_scene_stop_charge">Berhenti mengisi daya</string>
+    <string name="system_scene_task_canceled">Tugas dibatalkan</string>
+    <string name="system_scene_timing_task">tugas waktu saya</string>
+    <string name="system_scene_trigger">Pemicu saya</string>
+
+    <string-array name="process_sort_modes">
+        <item>Oleh CPU</item>
+        <item>Tekan RES</item>
+        <item>Oleh PID</item>
+        <item>Tidak diurutkan</item>
+    </string-array>    
+    <string-array name="process_filter">
+        <item>Aplikasi biasa</item>
+        <item>aplikasi sistem</item>
+        <item>Semua aplikasi</item>
+        <item>Proses lainnya</item>
+        <item>Semua jenis</item>
+    </string-array>
+
+    <!--Configuration Source--> 
+    <string name="source_uperf">Sumber eksternal (Atas)</string>
+    <string name="source_outside">Sumber luar</string>
+    <string name="source_classics">Adegan-Klasik</string>
+    <string name="source_perf">Adegan-kinerja</string>
+    <string name="source_undefined">Tidak terdefinisi</string>
+    <string name="source_unknown">tidak dikenal</string>
+    <string name="source_author">Sumber/penulis konfigurasi:</string>
+    <string name="notification_filter">Layanan pemfilteran notifikasi</string>
+
+    <string name="miui_thermal_desc">Klik menu di sudut kanan atas untuk memilih dan mengedit file kontrol suhu. Setelah mengedit, klik Simpan~\n\nCatatan: Dengan pembaruan terus-menerus pada sistem Android, semakin sulit untuk mengubah partisi sistem, dan modifikasi mungkin tidak berhasil disimpan, atau akan dipulihkan secara otomatis setelah memulai ulang. Disarankan untuk menggunakan modul magisk untuk menyelesaikan modifikasi kontrol suhu! \n\nFile pengatur suhu biasanya ada di direktori /system/etc atau /vendor/etc, namanya dimulai dengan "thermal" dan akhiran ".conf"</string>
+    <string name="monitor_process_unsupported">Manajer proses belum kompatibel dengan ponsel Anda!</string>
+</resources>
